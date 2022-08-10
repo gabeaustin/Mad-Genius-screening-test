@@ -1,3 +1,5 @@
-* {
-  background-color: hotpink;
+:root {
+  --white: #fff;
+  --black: #000;
+  --yellow: #ffee06;
 }
