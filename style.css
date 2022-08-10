@@ -8,3 +8,13 @@
   --semibold: 600;
   --bold: 700;
 }
+
+
+#acme_logo {
+  width: 30px;
+  height: 24px;
+}
+
+button.main-nav-toggle {
+  background: var(--yellow);
+}
