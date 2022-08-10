@@ -2,4 +2,9 @@
   --white: #fff;
   --black: #000;
   --yellow: #ffee06;
+  --raleway: "Raleway", sans-serif;
+  --source-sans: "Source Sans Pro", sans-serif;
+  --regular: 400;
+  --semibold: 600;
+  --bold: 700;
 }
