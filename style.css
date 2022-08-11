@@ -9,7 +9,6 @@
   --bold: 700;
 }
 
-
 #acme_logo {
   width: 30px;
   height: 24px;
@@ -17,4 +16,25 @@
 
 button.main-nav-toggle {
   background: var(--yellow);
+}
+
+.home-page-hero-image {
+  opacity: 1;
+}
+
+.home-page-hero-heading {
+  letter-spacing: 0;
+  text-align: left;
+  font-family: var(--raleway);
+  font-weight: var(--bold);
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.home-page-hero-subheading {
+  letter-spacing: 0;
+  text-align: left;
+  font-family: var(--source-sans);
+  font-weight: var(--normal);
+  font-size: 1.3rem;
 }
