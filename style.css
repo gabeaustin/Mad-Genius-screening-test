@@ -20,6 +20,8 @@ button.main-nav-toggle {
 
 .home-page-hero-image {
   opacity: 1;
+
+  outline: solid red;
 }
 
 .home-page-hero-heading {
@@ -27,8 +29,10 @@ button.main-nav-toggle {
   text-align: left;
   font-family: var(--raleway);
   font-weight: var(--bold);
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
+
+  outline: solid blue;
 }
 
 .home-page-hero-subheading {
@@ -37,4 +41,11 @@ button.main-nav-toggle {
   font-family: var(--source-sans);
   font-weight: var(--normal);
   font-size: 1.3rem;
+
+  outline: solid green;
+}
+
+button.values-learn-more-btn {
+  background-color: var(--yellow);
+  border: var(--yellow);
 }
