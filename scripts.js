@@ -8,3 +8,19 @@ $(document).ready(function() {
     slide.addClass("active");
   });
 });
+
+//check width
+
+let checkWidth = function() {
+  let windowSize = $(window).width();
+  if(windowSize > 480){
+    let slideWidth = $(".active").width();
+    $(".slide-content").css(
+      {
+        "width": slideWidth + "px"
+      }
+    )
+  }
+}
+
+
