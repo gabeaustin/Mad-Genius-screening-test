@@ -21,10 +21,6 @@ button.button-in-nav {
   background-color: var(--yellow);
 }
 
-button.main-nav-toggle {
-  background: var(--yellow);
-}
-
 .home-page-hero-heading {
   text-align: left;
   font-family: var(--raleway);
@@ -46,6 +42,8 @@ button.main-nav-toggle {
   font-weight: var(--bold);
   text-transform: uppercase;
   font-size: 1rem;
+  letter-spacing: 1.1px;
+  color: var(--white);
 }
 
 .values-copy {
@@ -68,6 +66,24 @@ button.values-learn-more-btn {
 /* mobile */
 
 @media only screen and (max-width: 576px) {
+  #acme_logo {
+    width: 40%;
+    margin-left: 10px;
+  }
+
+  button.main-nav-toggle {
+    background: var(--yellow);
+    border: none;
+    font-family: var(--source-sans);
+    font-weight: var(--normal);
+    font-size: 0.85;
+    text-transform: uppercase;
+  }
+
+  button.main-nav-toggle {
+    border: none;
+  }
+
   .home-page-hero-image {
     opacity: 1;
     width: 100vw;
@@ -97,6 +113,23 @@ button.values-learn-more-btn {
     font-size: 1rem;
     color: var(--white);
     top: 120px;
+    position: relative;
+  }
+
+  #guarantee-card {
+    opacity: 1;
+    width: 80vw;
+    height: 30vh;
+    margin: 0 auto;
+    background-image: url("./images/Mask_Group_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  #guarantee-card .values-heading {
+    top: 160px;
+    left: 20px;
     position: relative;
   }
 
