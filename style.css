@@ -158,13 +158,21 @@ button.values-learn-more-btn {
   }
 
   .testimonials-background-section {
+    position: relative;
+    z-index: 0;
+    top: 225px;
+  }
+
+  .testimonials-background-section img {
     width: 100vw;
-    height: 50vh;
-    margin-left: -10px;
-    background: url("./images/Image_5.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
+    height: 60vh;
+    margin-left: -12.5px;
+  }
+
+  .testimonials-section {
+    position: relative;
+    z-index: 1;
+    top: -325px;
   }
 
   .testimonials-author {
@@ -184,6 +192,9 @@ button.values-learn-more-btn {
   footer {
     background-color: var(--black);
     padding: 50px;
+    position: relative;
+    top: -310px;
+    z-index: 0;
   }
 
   .footer-logo {
