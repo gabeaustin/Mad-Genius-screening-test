@@ -23,4 +23,13 @@ let checkWidth = function() {
   }
 }
 
+$(window).resize(function() {
+  //onresize
+  checkWidth();
+
+  //finsih resize
+  clearTimeout(window.resizeFinished);
+  windowSize.resizeFinished = setTimeout(checkWidth, 500);
+})
+
 

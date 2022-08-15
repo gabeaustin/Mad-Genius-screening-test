@@ -75,3 +75,25 @@
 .active a.action {
   display: none;
 }
+
+/* responsive style */
+@media (max-width: 480px) {
+  .slides {
+    display: initial;
+  }
+
+  .slide {
+    width: 100% !important;
+    /* !imporant; */
+    margin-bottom: 15px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .slide-content {
+    width: 100% !important;
+    /* !important; */
+    padding: 25px;
+    font-size: 95%;
+  }
+}
