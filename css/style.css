@@ -89,7 +89,7 @@ button.values-learn-more-btn {
     width: 100vw;
     height: 30vh;
     margin-left: -10px;
-    background-image: url("./images/Mask_Group_1.png");
+    background-image: url("/images/Mask_Group_1.png");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
