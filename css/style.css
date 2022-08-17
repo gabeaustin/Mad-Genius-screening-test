@@ -25,7 +25,10 @@ button.button-in-nav {
   opacity: 1;
   width: 100vw;
   height: 60vh;
-  margin-left: -12px;
+  /* margin-left: -120px !important; */
+  left: -82px;
+  position: relative;
+  /* margin: 0 auto; */
   background-image: url("/images/Mask_Group_1.png");
   background-repeat: no-repeat;
   background-position: left center;
