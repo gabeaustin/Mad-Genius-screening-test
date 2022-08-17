@@ -24,7 +24,7 @@ button.button-in-nav {
 .home-page-hero-image {
   opacity: 1;
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   margin-left: -12px;
   background-image: url("/images/Mask_Group_1.png");
   background-repeat: no-repeat;
@@ -37,11 +37,11 @@ button.button-in-nav {
   text-align: left;
   font-family: var(--raleway);
   font-weight: var(--bold);
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   color: var(--white);
-  top: 300px;
-  left: 60px;
+  top: 245px;
+  left: 40px;
   position: relative;
 }
 
@@ -49,10 +49,10 @@ button.button-in-nav {
   text-align: left;
   font-family: var(--source-sans);
   font-weight: var(--normal);
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   color: var(--white);
-  top: 295px;
-  left: 60px;
+  top: 245px;
+  left: 40px;
   position: relative;
 }
 
